@@ -1,0 +1,2 @@
+install AWS CLI from https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+depending on what OS you are on (x86 (intel) or arm64 (amd))
