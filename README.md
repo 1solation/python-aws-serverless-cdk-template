@@ -3,7 +3,7 @@
 Prerequisites:
 
 - Docker installed locally
-- VS Code instaleld locally
+- VS Code installed locally
 
 Use this template to start a python project within a development container.
 
@@ -15,6 +15,18 @@ To run this locally you will need Docker & VS Code. Open the repo in VS Code & a
 
 - Bundled with `Python 3.9-bullseye` (`-bullseye` variants on local on arm64/Apple Silicon)
 - `Node LTS`
+- CDK & CDK Dia NPM packages
+- Makefile for ease of use with the tooling
+- Managed Hooks Directory
+
+
+## Managed Hooks Directory
+
+Git houses hooks in the `.git` directory, however this folder isn't version controlled and therefore a custom hook is local to each developer.
+
+The `.githooks` directory is version controlled and is where the hooks should live.
+
+Note: each new hook will need to be made executable with `chmod+x`, and then run the `make hooks` command to initialise your local hooks correctly.
 
 # Try Out Development Containers: Python
 
