@@ -1,6 +1,7 @@
 # Python development container base template
 
 Prerequisites:
+
 - Docker installed locally
 - VS Code instaleld locally
 
@@ -26,7 +27,9 @@ This is a sample project that lets you try out either option in a few easy steps
 ## Setting up the development container
 
 ### GitHub Codespaces
+
 Follow these steps to open this sample in a Codespace:
+
 1. Click the Code drop-down menu and select the **Open with Codespaces** option.
 1. Select **+ New codespace** at the bottom on the pane.
 
