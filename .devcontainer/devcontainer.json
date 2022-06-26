@@ -2,6 +2,9 @@
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.202.3/containers/python-3
 {
 	"name": "Python 3 Dev Container Template",
+	"features": {
+		"aws-cli": "latest"
+	},
 	"build": {
 		"dockerfile": "Dockerfile",
 		"context": "..",
