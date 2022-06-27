@@ -19,6 +19,9 @@ To run this locally you will need Docker & VS Code. Open the repo in VS Code & a
 - Makefile for ease of use with the tooling
 - Managed Hooks Directory
 
+# Usage
+
+First set up the repository using `make setup`.
 
 ## Managed Hooks Directory
 
