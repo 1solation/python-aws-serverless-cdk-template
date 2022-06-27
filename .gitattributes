@@ -1,4 +1,4 @@
-*.md filter=space-removal-at-eol # ignore trailing whitespace in markdown files
+*.md filter=space-removal-at-eol
 * text=auto eol=lf
 *.{cmd,[cC][mM][dD]} text eol=crlf
 *.{bat,[bB][aA][tT]} text eol=crlf
